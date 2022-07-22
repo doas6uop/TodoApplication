@@ -1,5 +1,6 @@
 package com.example.demo.controller;
 
+import lombok.extern.slf4j.Slf4j;
 import org.springframework.web.bind.annotation.*;
 import com.example.demo.dto.ResponseDTO;
 import com.example.demo.dto.TestRequestBodyDTO;
@@ -11,6 +12,7 @@ import java.util.List;
 
 
 
+@Slf4j
 @RestController
 @RequestMapping("test") // 리소스
 public class TestController {
